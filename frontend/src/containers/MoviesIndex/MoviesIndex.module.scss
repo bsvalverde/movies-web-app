@@ -1,0 +1,23 @@
+.Row {
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+
+  .Input {
+    grid-row-start: 1;
+    grid-column: 1 / 8;
+  }
+
+  .SearchButton {
+    grid-row-start: 1;
+    grid-column: 8 / 10;
+  }
+
+  .List, .Navigation {
+    grid-column: 1 / 10;
+  }
+
+  .Navigation {
+    text-align: center;
+  }
+}

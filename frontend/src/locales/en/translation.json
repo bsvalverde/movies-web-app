@@ -1,0 +1,13 @@
+{
+  "genres": "Genres",
+  "goBack": "Go back",
+  "loadingError": "Something went wrong. Please reload the page.",
+  "moviesWebApp": "The Movies Web App",
+  "nothingToShow": "No results found",
+  "overview": "Overview",
+  "releaseDate": "Release Date",
+  "search": "Search",
+  "seeMore": "See more",
+  "title": "Title",
+  "titleInputPlaceholder": "Movie title"
+}

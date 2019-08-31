@@ -1,0 +1,16 @@
+@import '../../../variables';
+
+.GreenButton {
+  width: 100%;
+  padding: 10px;
+  background-color: $green;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: inset 0 0 3px $whitewithtransparency;
+
+  &:active {
+  	box-shadow: inset 0 0 3px $blackwithtransparency;
+  }
+}

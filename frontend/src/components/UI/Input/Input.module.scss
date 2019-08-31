@@ -1,0 +1,19 @@
+@import '../../../variables.scss';
+
+.Input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: $greenwithtransparency;
+  border: none;
+  border-radius: 5px;
+
+  &::placeholder {
+    color: $white;
+    transition: color 0.3s;
+  }
+
+  &:hover::placeholder, &:focus::placeholder {
+    color: $whitewithtransparency;
+  }
+}

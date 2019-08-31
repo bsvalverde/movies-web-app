@@ -1,0 +1,13 @@
+{
+	"genres": "Gêneros",
+	"goBack": "Voltar",
+	"loadingError": "Algo deu errado. Por favor recarregue a página.",
+	"moviesWebApp": "O App de Filmes da Web",
+	"nothingToShow": "Nenhum resultado encontrado",
+	"overview": "Sinopse",
+	"releaseDate": "Data de Lançamento",
+	"search": "Pesquisar",
+	"seeMore": "Ver mais",
+	"title": "Título",
+	"titleInputPlaceholder": "Título do filme"
+}
