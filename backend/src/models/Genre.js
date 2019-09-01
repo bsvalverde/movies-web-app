@@ -6,8 +6,8 @@ const GenreSchema = new Schema({
     required: true
   },
   name: {
-  	type: String,
-  	required: true
+    type: String,
+    required: true
   }
 });
 

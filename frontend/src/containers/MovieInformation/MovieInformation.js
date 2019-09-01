@@ -47,7 +47,7 @@ const MovieInformation = (props) => {
   }
 
   if (information.error) {
-    return <p>{t('loadingError')}</p>;
+    return <p className={classes.Message}>{t('loadingError')}</p>;
   }
 
   return (

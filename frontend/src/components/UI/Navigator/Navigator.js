@@ -8,15 +8,29 @@ const Navigator = (props) => {
   const { current, total } = props;
   const { clickPrevious, clickNext } = props;
 
+  let returnButton = null;
+  if (current !== 1) {
+    returnButton = (
+      <div className={classes.Button}>
+        <GreenButton onClick={clickPrevious}>{'<'}</GreenButton>
+      </div>
+    );
+  }
+
+  let nextButton = null;
+  if (current !== total) {
+    nextButton = (
+      <div className={classes.Button}>
+        <GreenButton onClick={clickNext}>{'>'}</GreenButton>
+      </div>
+    );
+  }
+
   return (
     <div className={classes.Navigator}>
-      <div className={classes.Button}>
-        { current !== 1 && <GreenButton onClick={clickPrevious}>{'<'}</GreenButton> }
-      </div>
+      { returnButton }
       <label>{ current }/{ total }</label>
-      <div className={classes.Button}>
-        { current !== total && <GreenButton onClick={clickNext}>{'>'}</GreenButton> }
-      </div>
+      { nextButton }
     </div>
   );
 };

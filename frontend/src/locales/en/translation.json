@@ -1,6 +1,7 @@
 {
   "genres": "Genres",
   "goBack": "Go back",
+  "loading": "Loading...",
   "loadingError": "Something went wrong. Please reload the page.",
   "moviesWebApp": "The Movies Web App",
   "nothingToShow": "No results found",

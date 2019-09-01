@@ -36,7 +36,7 @@ export const MoviesList = (props) => {
       </thead>
       <tbody>
         { 
-        	movies.map(movie =>
+          movies.map(movie =>
             <MovieSummary
               key={movie._id}
               movie={movie}

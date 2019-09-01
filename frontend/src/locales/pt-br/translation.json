@@ -1,6 +1,7 @@
 {
 	"genres": "Gêneros",
 	"goBack": "Voltar",
+  "loading": "Carregando...",
 	"loadingError": "Algo deu errado. Por favor recarregue a página.",
 	"moviesWebApp": "O App de Filmes da Web",
 	"nothingToShow": "Nenhum resultado encontrado",

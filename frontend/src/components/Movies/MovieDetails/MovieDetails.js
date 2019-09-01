@@ -25,7 +25,7 @@ const MovieDetails = (props) => {
       </div>
       <div className={classes.Info}>
         <div className={classes.Title}>
-          <label>{movie.title}</label>
+          <p>{movie.title}</p>
         </div>
         <div className={classes.Field}>
           <p className={classes.FieldName}>{t('genres')}</p>

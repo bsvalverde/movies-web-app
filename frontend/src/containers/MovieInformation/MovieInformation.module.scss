@@ -1,4 +1,13 @@
+@import '../../variables.scss';
+
 .MovieInformation {
   display: grid;
   grid-gap: 10px;
+}
+
+.Message {
+  padding: 10px;
+  text-align: center;
+  background-color: $greenwithtransparency;
+  border-radius: 5px;
 }
