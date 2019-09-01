@@ -1,4 +1,4 @@
-# movies-web-app
+## The Movies Web App
 
 The project was divided in two: a back-end API that gathers data from The Movie Database and a front-end application that consumes data from the implemented API.
 The project as a whole implements the MVC pattern, with the API implementing models and controllers and the application being responsible for the view.
