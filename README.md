@@ -1,30 +1,30 @@
-## The Movies Web App
+# The Movies Web App
 
 The project was divided in two: a back-end API that gathers data from The Movie Database and a front-end application that consumes data from the implemented API.
 The project as a whole implements the MVC pattern, with the API implementing models and controllers and the application being responsible for the view.
 
 Node.js was used for the back-end and React.js for the front-end.
 
-##Running the application
+## Running the application
 The back-end application uses an enviroment variable to access The Movie Database API. For that to be available, you need to insert an `MOVIE_DATABASE_API_KEY` on `/backend/.env`.
 
 To run the app, execute the command:
 
-###`npm run install_all`
+### `npm run install_all`
 
 This will install all the needed dependencies, for both back-end and front-end.
 
 After that, to start de application, execute:
 
-###`npm start`
+### `npm start`
 
 If the browser is not automatically started, the application can be found on [http://localhost:3000](http://localhost:3000).
 
 The front-end also has implement tests. To run then, after navigating to the front-end folder run:
 
-###`npm test`
+### `npm test`
 
-##Libraries
+## Libraries
 The following libraries were used in the back-end:
 * __axios__ - used to make requests to The Movie Database API;
 * __cors__ - used to enable CROSS ORIGIN RESOURCE SHARING;
