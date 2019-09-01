@@ -26,16 +26,16 @@ The front-end also has implement tests. To run then, after navigating to the fro
 
 ##Libraries
 The following libraries were used in the back-end:
-*__axios__ - used to make requests to The Movie Database API;
-*__cors__ - used to enable CROSS ORIGIN RESOURCE SHARING;
-*__dotenv__ - used to define environment variables;
-*__express__ - used for routing;
-*__mongoose__ - used to access the database.
+* __axios__ - used to make requests to The Movie Database API;
+* __cors__ - used to enable CROSS ORIGIN RESOURCE SHARING;
+* __dotenv__ - used to define environment variables;
+* __express__ - used for routing;
+* __mongoose__ - used to access the database.
 
 In the front-end:
-*__react__ and dependencies - used to create dynamic user interfaces;
-*__axios__ - used to make requests to the back-end API;
-*__enzyme__ and dependencies - used to create test files;
-*__i18next__ and dependencies - used for internationalization;
-*__node-sass__ - used to compile scss files instead of css;
-*__redux__ and dependencies - used to manage a global state accross the application.
+* __react__ and dependencies - used to create dynamic user interfaces;
+* __axios__ - used to make requests to the back-end API;
+* __enzyme__ and dependencies - used to create test files;
+* __i18next__ and dependencies - used for internationalization;
+* __node-sass__ - used to compile scss files instead of css;
+* __redux__ and dependencies - used to manage a global state accross the application.
