@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from 'react';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
-function App() {
+import MoviesIndex from './containers/MoviesIndex/MoviesIndex';
+
+import Layout from './containers/Layout/Layout';
+import Spinner from './components/UI/Spinner/Spinner';
+
+const MovieInformation = React.lazy(() => {
+  return import('./containers/MovieInformation/MovieInformation');
+});
+
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Suspense fallback={<Spinner />}>
+        <Switch>
+          <Route path="/movie/:id" render={(props) => <MovieInformation {...props} />} />
+          <Route path="/upcoming/:page?" component={MoviesIndex} />
+          <Route render={() => <Redirect to="/upcoming" />} />
+        </Switch>
+      </Suspense>
+    </Layout>
   );
-}
+};
 
 export default App;

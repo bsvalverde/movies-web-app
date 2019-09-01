@@ -1,0 +1,42 @@
+@import '../../../variables';
+
+.Message {
+  padding: 10px;
+  text-align: center;
+  background-color: $greenwithtransparency;
+  border-radius: 5px;
+}
+
+.MoviesList {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-radius: 5px;
+  overflow: hidden;
+
+  th {
+    background-color: $green;
+
+    &:first-child {
+      width: 15%;
+    }
+
+    &:last-child {
+      width: 15%;
+    }
+  }
+
+  tr {
+    background-color: $greenwithtransparency;
+    text-align: center;
+
+    &:nth-child(odd) {
+      background-color: $lightgreenwithtransparency;
+    }
+  }
+
+  td, th {
+    padding: 10px;
+  }
+}

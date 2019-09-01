@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+.Header {
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  background-color: $green;
+
+  h1 {
+    margin: 0;
+  }
+}

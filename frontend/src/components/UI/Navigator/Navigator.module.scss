@@ -1,0 +1,19 @@
+@import '../../../variables.scss';
+
+.Navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  .Button {
+    width: 30px;
+  }
+
+  label {
+    background-color: $greenwithtransparency;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+}

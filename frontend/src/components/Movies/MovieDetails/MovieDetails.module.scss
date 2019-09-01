@@ -1,0 +1,45 @@
+@import '../../../variables.scss';
+
+.MovieDetails {
+  background-color: $greenwithtransparency;
+  border-radius: 5px;
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-columns: 1fr;
+
+  .Poster {
+    grid-column: 1 / 4;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .Info {
+    grid-column: 4 / 10;
+
+    .Title {
+      p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+
+    .Field {
+      width: 100%;
+      margin: 10px 0;
+
+      .FieldName {
+        font-weight: bold;
+      }
+    }
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      text-align: justify;
+    }
+  }
+}
